@@ -72,7 +72,7 @@ import { mapState, mapMutations } from "vuex";
 import { nprogressMixin } from "@/mixins";
 
 export default {
-  name: "Appartments",
+  name: "Apartments",
   mixins: [nprogressMixin],
   computed: {
     ...mapState(["appartmentList"])

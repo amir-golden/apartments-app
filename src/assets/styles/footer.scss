@@ -1,0 +1,17 @@
+.footer {
+  background-color: #63add0;
+  text-align: center;
+  padding: 15px 0;
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__text {
+    height: 20px;
+    width: 100px;
+    display: inline-block;
+    background-color: #ff8900;
+  }
+}

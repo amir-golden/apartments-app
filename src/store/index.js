@@ -30,7 +30,9 @@ export default new Vuex.Store({
             fetch("entities.json")
               .then(function (response) {
                 if (response.status !== 200) {
+                  /* eslint-disable no-console */
                   console.log("Looks like there was a problem. Status Code: " + response.status);
+                  /* eslint-disable no-console */
                   return;
                 }
 
@@ -40,7 +42,9 @@ export default new Vuex.Store({
                 });
               })
               .catch(function (err) {
+                /* eslint-disable no-console */
                 console.log("Fetch Error :-S", err);
+                /* eslint-disable no-console */
               });
           }, 700);
         })

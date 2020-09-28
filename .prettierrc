@@ -2,7 +2,7 @@
   "printWidth": 130,
   "overrides": [
     {
-      "files": "*.pcss",
+      "files": "*.scss",
       "options": {
         "printWidth": 180
       }

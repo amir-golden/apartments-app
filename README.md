@@ -1,5 +1,8 @@
 # apartments-app
 
+## Deployed:
+[https://apartments-app-2020.herokuapp.com//](https://apartments-app-2020.herokuapp.com/)
+
 ## Project setup
 ```
 npm install
